@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_kebab.mk
+    $(LOCAL_DIR)/derp_kebab.mk
+
+COMMON_LUNCH_CHOICES := \
+    derp_kebab-user \
+    derp_kebab-userdebug \
+    derp_kebab-eng
