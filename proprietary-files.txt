@@ -98,7 +98,6 @@ odm/etc/irissoft.fw
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
-vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc
 
 # Sensors
 odm/etc/sensor/config/kona_T0_sx9324_0.json
