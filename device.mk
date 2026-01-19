@@ -55,8 +55,3 @@ $(call inherit-product, device/oneplus/sm8250-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/kebab/kebab-vendor.mk)
-
-# BP4A Keymaster
-PRODUCT_COPY_FILES += \
-    device/oneplus/sm8250-common/rootdir/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc
-
