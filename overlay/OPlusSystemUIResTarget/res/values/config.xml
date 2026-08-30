@@ -6,4 +6,7 @@
 <resources>
     <!-- Whether device has a dual-cell battery architecture (OnePlus 8T Warp Charge 65) -->
     <bool name="config_hasDualCellBattery">true</bool>
+
+    <!-- OnePlus 8T kernel fuel gauge reports single-cell voltage; double it for true pack telemetry -->
+    <bool name="config_shouldDoubleFastChargeVoltage">true</bool>
 </resources>
